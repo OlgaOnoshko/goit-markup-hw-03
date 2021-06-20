@@ -1,0 +1,305 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-header-color: #212121;
+  --logo-color: #000000;
+  --blue-accent: #2196f3;
+  --main-background-hero-adress-color: #ffffff;
+  --team-section-background-color: #f5f4fa;
+  --hero-footer-background-color: #2f303a;
+  --footer-contact-white: rgba(255, 255, 255, 0.6);
+}
+
+/* основний текст #757575 */
+/* заголовки додатковий текст #212121*/
+/* лого #000000 */
+/* акцент голубий #2196F3 */
+/* Основий білий фон #FFFFFF */
+/* фон Наша Команда #F5F4FA */
+/* фон Герой і футер #2F303A */
+/* напівпорзорий білий rgba(255, 255, 255, 0,6); */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: solid 2px tomato;
+}
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--main-background-hero-adress-color);
+  color: var(--primary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.header {
+  background-color: var(--main-background-hero-adress-color);
+}
+
+/* лого */
+.logo {
+  color: var(--logo-color);
+  font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-part {
+  color: var(--blue-accent);
+}
+.logo-end {
+  color: var(--main-background-hero-adress-color);
+}
+
+/* навігація сайту */
+.site-nav .link {
+  color: var(--secondary-header-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--blue-accent);
+}
+.site-nav .link.current {
+  color: var(--blue-accent);
+}
+
+/* контакти шапки */
+.header-contacts .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--blue-accent);
+}
+
+/* списки */
+.site-nav,
+.header-contacts,
+.features,
+.whatwedo,
+.team,
+.footer-contact,
+.gallery-nav,
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* герой НАПЕВНО ТРЕБА ЗАБРАТИ ПАДІНГИ */
+.hero {
+  background-color: var(--hero-footer-background-color);
+  text-align: center;
+  margin-bottom: 94px;
+}
+.hero .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  outline: 1px solid red;
+  color: var(--main-background-hero-adress-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  /* text-align: center; */
+  text-transform: uppercase;
+}
+
+/* заголовки секцій */
+.section .section-title,
+.team-section .team-section-title {
+  color: var(--secondary-header-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.features-title {
+  display: none;
+}
+
+/* переваги */
+.features-section .features .title {
+  color: var(--secondary-header-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.feature-text {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* команда */
+.team-section {
+  background-color: var(--team-section-background-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team .team-name {
+  color: var(--secondary-header-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.team-pic {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* зробити крім останньої дитини ПОПРАВКА не треба бо елементи в лінійку і відступ треба всім*/
+.team-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* портфоліо */
+.portfolio-title {
+  display: none;
+}
+
+/* галерея */
+.gallery .gallery-title {
+  color: var(--secondary-header-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.gallery-work {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.gallery .link {
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.gallery-pic {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* футер */
+.footer {
+  background-color: var(--hero-footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer-contact .link {
+  color: var(--footer-contact-white);
+  text-decoration: none;
+}
+.footer-contact .link:hover,
+.footer-contact .link:focus {
+  color: var(--blue-accent);
+}
+.footer-contact .add-link {
+  color: var(--main-background-hero-adress-color);
+}
+.footer-contact .add-link:hover,
+.footer-contact .add-link:focus {
+  color: var(--blue-accent);
+}
+
+/* взнати як поставити паддінг для лого в футері */
+.address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.email {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+/* кнопки */
+.button {
+  display: inline-block;
+  color: var(--secondary-header-color);
+  background-color: var(--team-section-background-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.button:hover,
+.button:focus {
+  color: var(--team-section-background-color);
+  background-color: var(--secondary-header-color);
+}
+
+/* кнопка героя РОЗІБРАТИСЬ ЧОМУ ПЛИВЕ ТЕКСТ коли ставляться падінги */
+.hero-button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* display: inline-block; */
+  /* padding: 10px 32px; */
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+  color: var(--blue-accent);
+  background-color: var(--main-background-hero-adress-color);
+}
+
+.button.primary {
+  color: var(--main-background-hero-adress-color);
+  background-color: var(--blue-accent);
+}
