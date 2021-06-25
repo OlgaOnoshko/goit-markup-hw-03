@@ -214,7 +214,9 @@ body {
 }
 
 /* Наші Роботи */
-
+.whatwedo {
+  padding-bottom: 94px;
+}
 .whatwedo img {
   display: block;
 }
@@ -238,15 +240,20 @@ body {
   margin-bottom: 10px;
 }
 .team-pic {
+  display: block;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+}
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Портфоліо */
@@ -274,7 +281,6 @@ body {
   line-height: 1.9;
   margin-top: 0;
   margin-bottom: 0;
-  margin-bottom: 20px;
 }
 .gallery .link {
   text-decoration: none;
